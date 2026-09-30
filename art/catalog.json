@@ -1,0 +1,387 @@
+{
+  "schemaVersion": 1,
+  "sourceVideo": {
+    "path": "art/source/references/source-recording.mp4",
+    "sha256": "28b6db0d960c3844c3a25fba677dfa82650f5e7dbd2746de2aab420e22c9aa0a",
+    "fps": 25,
+    "width": 680,
+    "height": 1294,
+    "frameCount": 3804,
+    "optionalLocalFile": true
+  },
+  "references": [
+    {
+      "path": "art/source/references/0001-combat.jpg",
+      "source": "source-recording.mp4",
+      "frame": 1,
+      "seconds": 0.0,
+      "role": "reference-only",
+      "sha256": "f6054433f121145a405a9d5f78de849861c451e049e67ecc24d465fbc95e1e2f"
+    },
+    {
+      "path": "art/source/references/0319-bounty.jpg",
+      "source": "source-recording.mp4",
+      "frame": 319,
+      "seconds": 12.72,
+      "role": "reference-only",
+      "sha256": "d6245a989013998c768c5870d6463d29a92edac509a7f5a1ebcecde269243592"
+    },
+    {
+      "path": "art/source/references/0501-market.jpg",
+      "source": "source-recording.mp4",
+      "frame": 501,
+      "seconds": 20.0,
+      "role": "reference-only",
+      "sha256": "fa09cabc8e9f851cdd4e6c291cdab91d96d7792e039b5dfec51d63973f1fbf3f"
+    },
+    {
+      "path": "art/source/references/1001-auto-fire-entry.jpg",
+      "source": "source-recording.mp4",
+      "frame": 1001,
+      "seconds": 40.0,
+      "role": "reference-only",
+      "sha256": "8f8cc479266bf61885732dcba5cdcfd797325d7c08d250fcabb8c27d2b12ecb9"
+    },
+    {
+      "path": "art/source/references/1251-offline-entry.jpg",
+      "source": "source-recording.mp4",
+      "frame": 1251,
+      "seconds": 50.0,
+      "role": "reference-only",
+      "sha256": "b76beb9968935d180f926ae08d1569cf4e9d9c1557749b01f9583fc4be235c1f"
+    },
+    {
+      "path": "art/source/references/1501-pets.jpg",
+      "source": "source-recording.mp4",
+      "frame": 1501,
+      "seconds": 60.0,
+      "role": "reference-only",
+      "sha256": "21ba9380b6bac720960e815f4ca24912f7949994817072d40c96d40980d96b45"
+    },
+    {
+      "path": "art/source/references/1751-boss-profile.jpg",
+      "source": "source-recording.mp4",
+      "frame": 1751,
+      "seconds": 70.0,
+      "role": "reference-only",
+      "sha256": "a0bdc60bac70d15c852bf908a4ec6ebcd4c5bd25dea387ee621503791bb00bdd"
+    },
+    {
+      "path": "art/source/references/1826-boss-combat.jpg",
+      "source": "source-recording.mp4",
+      "frame": 1826,
+      "seconds": 73.0,
+      "role": "reference-only",
+      "sha256": "ecc6d55bd0d47bd61a154effd83ec3be53c357442a2820dfdd385dd5169f525f"
+    },
+    {
+      "path": "art/source/references/2201-boss-retreat-failed.jpg",
+      "source": "source-recording.mp4",
+      "frame": 2201,
+      "seconds": 88.0,
+      "role": "reference-only",
+      "sha256": "4e5eba9e2cb6220d3909b87ce6d22b6713b6b9187cb39fdfbff09fcca10cf915"
+    },
+    {
+      "path": "art/source/references/2276-skills.jpg",
+      "source": "source-recording.mp4",
+      "frame": 2276,
+      "seconds": 91.0,
+      "role": "reference-only",
+      "sha256": "3bbd798ed1f36a352943abddedfa836eb0855215ea7f5f2362738d2bb892a23b"
+    },
+    {
+      "path": "art/source/references/2423-shotgun-before.jpg",
+      "source": "source-recording.mp4",
+      "frame": 2423,
+      "seconds": 96.88,
+      "role": "reference-only",
+      "sha256": "7f97b056a4d58099c780863f7573015b7c8f5c5e7dd69c18aad8071fdc3f4546"
+    },
+    {
+      "path": "art/source/references/2436-shotgun-upgraded.jpg",
+      "source": "source-recording.mp4",
+      "frame": 2436,
+      "seconds": 97.4,
+      "role": "reference-only",
+      "sha256": "2808953ac7c672bc265c63336e81873db5057c2a9ec30eaf5008e120c179faf3"
+    },
+    {
+      "path": "art/source/references/2476-equip-rejected.jpg",
+      "source": "source-recording.mp4",
+      "frame": 2476,
+      "seconds": 99.0,
+      "role": "reference-only",
+      "sha256": "443d0a733e02ff8a110a7a944a0c1d9e2693ad8fe2afcf3813c6864e1b0e7153"
+    },
+    {
+      "path": "art/source/references/3346-manual-fragments.jpg",
+      "source": "source-recording.mp4",
+      "frame": 3346,
+      "seconds": 133.8,
+      "role": "reference-only",
+      "sha256": "236a2511e296f8b6309abcf7df43e1a62e6b7ad3a751f80a9a2342ea169b49d9"
+    },
+    {
+      "path": "art/source/references/3551-quest.jpg",
+      "source": "source-recording.mp4",
+      "frame": 3551,
+      "seconds": 142.0,
+      "role": "reference-only",
+      "sha256": "3289eb83f4867ffcc9bf35ca6372cc2859df69b8818cc988c3f4a5702ed81d40"
+    }
+  ],
+  "runtimeAssets": [
+    {
+      "path": "public/assets/scenes/corridor.png",
+      "source": "imagegen image-to-image",
+      "reference": "art/source/references/0001-combat.jpg",
+      "role": "battle-background",
+      "width": 1086,
+      "height": 1448,
+      "pngColorType": 2,
+      "sha256": "17e97e70e49260fa1ef288dad9087d93912b8bc5c2d2ce333703c7e06b96b98b",
+      "animation": "static"
+    },
+    {
+      "path": "public/assets/enemies/office-zombie.png",
+      "source": "imagegen image-to-image",
+      "reference": "art/source/references/0001-combat.jpg",
+      "role": "enemy-cutout",
+      "width": 1024,
+      "height": 1536,
+      "pngColorType": 6,
+      "sha256": "a3df5f3df837f68c363149ca834be14a6cab9706038abc3fdee68fae8644519d",
+      "animation": "static"
+    },
+    {
+      "path": "public/assets/enemies/mutant-plant.png",
+      "source": "imagegen image-to-image",
+      "reference": "art/source/references/1826-boss-combat.jpg",
+      "role": "boss-cutout",
+      "width": 1382,
+      "height": 1138,
+      "pngColorType": 6,
+      "sha256": "928339632eba3bd5f9c2107005fcbfa7696032251806cf57b6285b261c7bdab5",
+      "animation": "static"
+    },
+    {
+      "path": "public/assets/characters/hero-still.png",
+      "width": 1086,
+      "height": 1448,
+      "pngColorType": 6,
+      "sha256": "f6a9dbf14a5f200ba8418175ffa9af68ad08e5320c51cda73f4b96d571f0a092",
+      "source": "imagegen base -> technical chroma key",
+      "reference": "art/source/animation/hero-base.png",
+      "role": "hero-base",
+      "animation": "static",
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/enemies/cone-tyrant.png",
+      "width": 1024,
+      "height": 1536,
+      "pngColorType": 6,
+      "sha256": "c055fbee44aa2314ba33fcfc22d05876695bbfcb74dcdd54bc45fd5b3fbb8789",
+      "source": "imagegen image-to-image",
+      "reference": "public/assets/enemies/office-zombie.png",
+      "role": "boss-cutout",
+      "animation": "static",
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/motion/hero-shoot.png",
+      "width": 1536,
+      "height": 1536,
+      "pngColorType": 6,
+      "sha256": "9dd52de9267b5256f2140a3803140f4a90ee50d895ba3cc8555323dbf8334ef4",
+      "source": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> sheet",
+      "reference": "art/source/animation/hero-shoot.mp4",
+      "role": "animated-sprite-sheet",
+      "animation": {
+        "source": "art/source/animation/hero-shoot.mp4",
+        "sourceSha256": "3947596620e77cd4157f6148dacccf04497985f86dcf70d6d04d33292926c98e",
+        "sourceFrameIndices": [
+          0,
+          3,
+          6,
+          9,
+          12,
+          16,
+          20,
+          24,
+          28
+        ],
+        "sourceFps": 24,
+        "frameWidth": 384,
+        "frameHeight": 512,
+        "frames": 9,
+        "fps": 48,
+        "method": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> fixed cell pack"
+      },
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/motion/plant-idle.png",
+      "width": 2304,
+      "height": 1152,
+      "pngColorType": 6,
+      "sha256": "6ac67ab70abaacf5cfc94f859cab37c1afa039ab76df4978df5e7ba97df3ccf8",
+      "source": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> sheet",
+      "reference": "art/source/animation/plant-idle.mp4",
+      "role": "animated-sprite-sheet",
+      "animation": {
+        "source": "art/source/animation/plant-idle.mp4",
+        "sourceSha256": "0f328e5ae53482909f22bc15319efeb578095b6a59de43db47a2854814fc0a2d",
+        "sourceFrameIndices": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22
+        ],
+        "sourceFps": 12,
+        "frameWidth": 576,
+        "frameHeight": 384,
+        "frames": 12,
+        "fps": 6,
+        "method": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> fixed cell pack"
+      },
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/motion/tyrant-walk.png",
+      "width": 1536,
+      "height": 1536,
+      "pngColorType": 6,
+      "sha256": "fb0a2a15c4818b561090a20b62eb7a74a15d2ea6da4377d2c3bbff3250151ec7",
+      "source": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> sheet",
+      "reference": "art/source/animation/tyrant-walk.mp4",
+      "role": "animated-sprite-sheet",
+      "animation": {
+        "source": "art/source/animation/tyrant-walk.mp4",
+        "sourceSha256": "34175e179067190df8ed0751e4aaa4daaeb23d8d2e384d34e9119f30b66ff980",
+        "sourceFrameIndices": [
+          0,
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20,
+          22
+        ],
+        "sourceFps": 12,
+        "frameWidth": 384,
+        "frameHeight": 512,
+        "frames": 12,
+        "fps": 6,
+        "method": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> fixed cell pack"
+      },
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/motion/zombie-walk.png",
+      "width": 1536,
+      "height": 1536,
+      "pngColorType": 6,
+      "sha256": "27ffd5fbebbcaa7801cc42924b6d72b9e1b4abd88b8b6774dda7d2ba0b99297e",
+      "source": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> sheet",
+      "reference": "art/source/animation/zombie-walk.mp4",
+      "role": "animated-sprite-sheet",
+      "animation": {
+        "source": "art/source/animation/zombie-walk.mp4",
+        "sourceSha256": "bc4726aae25cb9a44a0b9bca09388ac1b856683dc380b0fe75cb4b1fc3036e68",
+        "sourceFrameIndices": [
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20
+        ],
+        "sourceFps": 12,
+        "frameWidth": 384,
+        "frameHeight": 512,
+        "frames": 9,
+        "fps": 7,
+        "method": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> fixed cell pack"
+      },
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/scenes/boss-greenhouse-clean.png",
+      "width": 1086,
+      "height": 1448,
+      "pngColorType": 2,
+      "sha256": "749f7fb5b5d42246fe2c8eb5f7c328f4930cc4f0ed0ff18715d5b180a1fe1b9d",
+      "source": "imagegen image-to-image",
+      "reference": "public/assets/scenes/boss-greenhouse.png",
+      "role": "background-clean",
+      "animation": "static",
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/scenes/boss-greenhouse.png",
+      "width": 1086,
+      "height": 1448,
+      "pngColorType": 2,
+      "sha256": "2c9d9e5e11186949f24090d237a4bb8fb934e005aaa2657e0b14fba0f5c442e3",
+      "source": "imagegen image-to-image",
+      "reference": "public/assets/scenes/corridor.png",
+      "role": "background",
+      "animation": "static",
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/scenes/boss-rooftop-clean.png",
+      "width": 1086,
+      "height": 1448,
+      "pngColorType": 2,
+      "sha256": "4c9389cbb2c63bd0cc971d611ec1f4ee98f94bc2c5e68a601f914bb08ac7af00",
+      "source": "imagegen image-to-image",
+      "reference": "public/assets/scenes/boss-rooftop.png",
+      "role": "background-clean",
+      "animation": "static",
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/scenes/boss-rooftop.png",
+      "width": 1086,
+      "height": 1448,
+      "pngColorType": 2,
+      "sha256": "f42e4f49910f059da03d3c25733d65371e5c9687e98108a8e7d8e3890aa5b138",
+      "source": "imagegen image-to-image",
+      "reference": "public/assets/scenes/corridor.png",
+      "role": "background",
+      "animation": "static",
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    },
+    {
+      "path": "public/assets/scenes/corridor-clean.png",
+      "width": 1086,
+      "height": 1448,
+      "pngColorType": 2,
+      "sha256": "1844517e74ae2b8d1058db76964e0a65ced093dfe7ea5618c9b3a231fa152afc",
+      "source": "imagegen image-to-image",
+      "reference": "public/assets/scenes/corridor.png",
+      "role": "background-clean",
+      "animation": "static",
+      "provenance": "docs/assets/2026-09-30-hud-motion.md"
+    }
+  ]
+}

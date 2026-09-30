@@ -1,0 +1,24 @@
+{
+  "source": "art/source/animation/tyrant-walk.mp4",
+  "sourceSha256": "34175e179067190df8ed0751e4aaa4daaeb23d8d2e384d34e9119f30b66ff980",
+  "sourceFrameIndices": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22
+  ],
+  "sourceFps": 12,
+  "frameWidth": 384,
+  "frameHeight": 512,
+  "frames": 12,
+  "fps": 6,
+  "method": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> fixed cell pack"
+}

@@ -1,0 +1,244 @@
+{
+  "checks": [
+    "ordinary enemy plays distinct video frames",
+    "shot changes damage and hero sprite frames, then recovers",
+    "menu pauses sprite motion and returns to animated combat",
+    "recorded actual game with HUD and shooting animation",
+    "tyrant-walk animates while approaching",
+    "plant-idle animates while approaching"
+  ],
+  "errors": [],
+  "heroFrames": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7
+  ],
+  "enemyFrames": [
+    1,
+    2,
+    4,
+    5,
+    6
+  ],
+  "capture": [
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 7,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 0,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 1,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 2,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 1,
+      "heroPlaying": true,
+      "enemyFrame": 3,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 5,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 6,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 7,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 1,
+      "heroPlaying": true,
+      "enemyFrame": 8,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 0,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 1,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 3,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 4,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 5,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 7,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 8,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 0,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 1,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 1,
+      "heroPlaying": true,
+      "enemyFrame": 3,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 4,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 5,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 6,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 1,
+      "heroPlaying": true,
+      "enemyFrame": 7,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 0,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272
+    }
+  ]
+}

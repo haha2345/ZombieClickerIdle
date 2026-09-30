@@ -1,0 +1,21 @@
+{
+  "source": "art/source/animation/hero-shoot.mp4",
+  "sourceSha256": "3947596620e77cd4157f6148dacccf04497985f86dcf70d6d04d33292926c98e",
+  "sourceFrameIndices": [
+    0,
+    3,
+    6,
+    9,
+    12,
+    16,
+    20,
+    24,
+    28
+  ],
+  "sourceFps": 24,
+  "frameWidth": 384,
+  "frameHeight": 512,
+  "frames": 9,
+  "fps": 48,
+  "method": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> fixed cell pack"
+}

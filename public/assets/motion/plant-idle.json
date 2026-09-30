@@ -1,0 +1,24 @@
+{
+  "source": "art/source/animation/plant-idle.mp4",
+  "sourceSha256": "0f328e5ae53482909f22bc15319efeb578095b6a59de43db47a2854814fc0a2d",
+  "sourceFrameIndices": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20,
+    22
+  ],
+  "sourceFps": 12,
+  "frameWidth": 576,
+  "frameHeight": 384,
+  "frames": 12,
+  "fps": 6,
+  "method": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> fixed cell pack"
+}

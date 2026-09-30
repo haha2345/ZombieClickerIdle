@@ -1,0 +1,21 @@
+{
+  "source": "art/source/animation/zombie-walk.mp4",
+  "sourceSha256": "bc4726aae25cb9a44a0b9bca09388ac1b856683dc380b0fe75cb4b1fc3036e68",
+  "sourceFrameIndices": [
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    18,
+    20
+  ],
+  "sourceFps": 12,
+  "frameWidth": 384,
+  "frameHeight": 512,
+  "frames": 9,
+  "fps": 7,
+  "method": "Grok CLI reference_to_video -> ffmpeg -> chroma key -> fixed cell pack"
+}

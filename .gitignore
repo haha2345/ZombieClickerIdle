@@ -1,0 +1,15 @@
+node_modules/
+dist/
+artifacts/
+work/
+.DS_Store
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+art/source/**/*.mp4
+art/source/**/*.mov
+
+
+# Machine-specific generation logs; portable provenance lives in docs/assets.
+art/source/animation/*-result.md

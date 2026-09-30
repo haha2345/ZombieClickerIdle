@@ -1,0 +1,30 @@
+{
+  "name": "zombie-clicker-idle",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "vue-tsc -b",
+    "assets:check": "node scripts/assets/verify.mjs",
+    "check:demo": "node scripts/checks/domain-checks.mjs && node scripts/checks/economy-simulation.mjs",
+    "check:browser": "node scripts/checks/browser-checks.mjs"
+  },
+  "dependencies": {
+    "phaser": "4.2.1",
+    "vue": "3.5.43"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.3",
+    "@vitejs/plugin-vue": "6.0.9",
+    "@vue/tsconfig": "0.9.1",
+    "typescript": "6.0.3",
+    "vite": "8.3.1",
+    "vue-tsc": "3.3.11"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
