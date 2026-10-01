@@ -1,0 +1,10 @@
+{
+  "checks": [
+    "ordinary hit loses health, shows impact, and does not kill immediately",
+    "dense video playback changes at least 20 frames and blends the loop seam",
+    "boss preview, timed approach, menu pause, loss sheet and resource-preserving return",
+    "imagegen icons load; parchment menus and controls fit 480, 390 and 320px widths"
+  ],
+  "errors": [],
+  "distinctEnemyFrames": 24
+}

@@ -36,10 +36,12 @@ export const RESEARCH: Record<ResearchId, { name: string; description: string; m
 }
 export const stageNames = ['断电大厅', '档案走廊', '安全通道', '楼顶广播', '旧邮局', '封锁街口', '倒塌天桥', '蔓生广场', '售票大厅', '空荡站台', '维修隧道', '最后候车室', '生锈闸门', '流水车间', '冷却塔', '主控室', '隔离入口', '种植舱', '根须管道', '母体中枢', '无人加油站', '信标坡道', '感染源', '黎明之前'] as const
 export const TOTAL_STAGES = stageNames.length
+// Fixed enemy life by stage: upgrades can shorten a fight; life never follows player damage.
+export const ORDINARY_HP = [252,500,800,2200,5000,10000,14000,24000,145000,170000,250000,600000,900000,1000000,2000000,7000000,8000000,9000000,11000000,23000000,42000000,50000000,55000000,60000000] as const
 export function stageConfig(stage: number) {
   const n = Math.max(1, Math.min(TOTAL_STAGES, stage))
   const district = DISTRICTS[Math.floor((n - 1) / 4)]!
-  return { stage: n, district, name: stageNames[n - 1]!, hp: Math.round(42 * 1.72 ** (n - 1)), bossHp: n === 1 ? 440 : Math.round(520 * 1.98 ** (n - 1) * (n <= 4 ? 1 : n <= 8 ? 12 : n <= 12 ? 24 : n <= 16 ? 16 : n === 17 ? 8.1 : n <= 20 ? 6 : n === 21 ? 3.1 : n === 22 ? 1.65 : n === 23 ? .88 : .8)), coin: Math.round(16 * 1.55 ** (n - 1)), target: n === 1 ? 5 : n < 4 ? 12 + n * 4 : 35 + n * 9, bossSeconds: n === 1 ? 12 : 25, scrap: 1 + Math.floor(n / 4) }
+  return { stage: n, district, name: stageNames[n - 1]!, hp: ORDINARY_HP[n - 1]!, bossHp: n === 1 ? 2100 : Math.round((n <= 4 ? 1600 : 520) * 1.98 ** (n - 1) * (n <= 4 ? 1 : n <= 8 ? 12 : n <= 12 ? 24 : n <= 16 ? 16 : n === 17 ? 8.1 : n <= 20 ? 6 : n === 21 ? 3.1 : n === 22 ? 1.65 : n === 23 ? .88 : .8)), coin: Math.round(16 * 1.55 ** (n - 1) * (n >= 5 ? 2.5 : 1)), target: n === 1 ? 5 : n < 4 ? 12 + n * 4 : 35 + n * 9, bossSeconds: n === 1 ? 20 : 25, scrap: 1 + Math.floor(n / 4) }
 }
 export const HANDBOOKS = [
   { name: '点射手册', description: '每套永久伤害 +8%' },

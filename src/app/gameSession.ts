@@ -35,6 +35,7 @@ export function createGameSession() {
       const now=performance.now(),dt=Math.min(1,(now-last)/1000);last=now
       if(document.hidden)return
       if(pendingAd.value){pendingAd.value.remaining=Math.max(0,pendingAd.value.remaining-dt);if(!test)state.clockMs=Date.now()}
+      else if(!test&&uiBlocked.value){state.clockMs=Date.now()}
       else if(!test){if(Date.now()-state.clockMs>15000)R.settleOffline(state,Date.now());R.advance(state,dt)}
     },50)
     saveTimer=setInterval(save,5000)
@@ -67,7 +68,7 @@ export function createGameSession() {
     startAd(id:string){if(pendingAd.value||!R.adAvailable(state,id))return false;pendingAd.value={id,request:crypto.randomUUID(),remaining:3};return true},
     cancelAd(){pendingAd.value=null},
     finishAd(){const ad=pendingAd.value;if(!ad||ad.remaining>0)return false;const ok=R.completeDemoAd(state,ad.id,ad.request,true);pendingAd.value=null;save();return ok},
-    advanceTime(ms:number){if(!pendingAd.value)R.advance(state,Math.max(0,ms)/1000)},
+    advanceTime(ms:number){if(!pendingAd.value&&!uiBlocked.value)R.advance(state,Math.max(0,ms)/1000)},
     fresh(){if(saveError.value){try{const raw=localStorage.getItem(storageKey(test));if(raw)localStorage.setItem(storageKey(test)+':recovery:'+Date.now(),raw)}catch{return false}}Object.assign(state,R.createInitialState());saveError.value=null;pendingAd.value=null;save();return true},
     exportSave(){return JSON.stringify(state,null,2)},
     importSave(raw:string){try{const parsed:unknown=normalizeSave(JSON.parse(raw));if(!validateState(parsed))return false;Object.assign(state,parsed);if(!panelUnlocked(state,state.selectedPanel))state.selectedPanel='combat';saveError.value=null;R.settleOffline(state,Date.now());save();return true}catch{return false}},

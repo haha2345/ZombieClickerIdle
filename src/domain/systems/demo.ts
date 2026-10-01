@@ -28,7 +28,7 @@ export function adjustedDamage(s: GameState, automatic = false) {
   }
   return damage
 }
-export function trainingCost(s: GameState) { return Math.round(420 * 1.315 ** (s.training - 1)) }
+export function trainingCost(s: GameState) { return Math.round((s.training < 6 ? 60 : 420) * 1.315 ** (s.training - 1)) }
 export function tacticsCost(s: GameState) { return Math.round(200 * 1.35 ** s.tactics) }
 export function enhancementCost(s: GameState, id: string) { return Math.ceil(15 * 1.9 ** (s.enhancements[id] ?? 0)) }
 export function bossReady(s: GameState) { return s.cleared < TOTAL_STAGES && s.stage === s.cleared + 1 && (s.stageKills[String(s.stage)] ?? 0) >= stageConfig(s.stage).target }
@@ -45,7 +45,7 @@ function kill(s: GameState) {
   if (s.mode === 'boss') {
     const cfg = stageConfig(s.stage)
     s.cleared = s.stage; s.coins += Math.round(cfg.coin * 35 * lootMultiplier(s)); s.scrap += cfg.scrap * 12; s.cans += 3; s.researchPoints += 3 + Math.floor(s.stage / 4)
-    note(s, `${cfg.district.boss}已击败！解锁${s.cleared === 1 ? '射击训练' : s.cleared === 4 ? '下一片街区' : '新路线'}。`)
+    note(s, `${cfg.district.boss}已击败！解锁${s.cleared === 1 ? '下一条路线' : s.cleared === 4 ? '下一片街区' : '新路线'}。`)
     s.mode = 'farm'; s.stage = Math.min(TOTAL_STAGES, s.cleared + 1); s.bossTime = 0; s.bossIntro=0; s.respawn = .7
     resolveMissions(s)
     if (s.cleared === TOTAL_STAGES) note(s, '信标亮了。24 关演示通关！还可以完成枪柜与图鉴收集。')
@@ -93,7 +93,7 @@ export function advance(s: GameState, seconds: number, manualRate = 0) {
 }
 export function upgradeTraining(s: GameState) { const cost = trainingCost(s); if (!featureUnlocked(s,'training') || s.training >= 120 || s.coins < cost) return false; s.coins -= cost; s.training++; return true }
 export function upgradeTactics(s: GameState) { const cost = tacticsCost(s); if (!featureUnlocked(s,'burst') || s.tactics >= 30 || s.coins < cost) return false; s.coins -= cost; s.tactics++; return true }
-export function buyWeapon(s: GameState, id: string) { const w = WEAPONS.find(x => x.id === id); if (!featureUnlocked(s,'market') || !w || s.owned.includes(id) || s.cleared < w.unlock || s.coins < w.price) return false; s.coins -= w.price; s.owned.push(id); note(s, `获得${w.name}。到仓库检查熟练度并穿戴。`); return true }
+export function buyWeapon(s: GameState, id: string) { const w = WEAPONS.find(x => x.id === id); if (!featureUnlocked(s,'market') || !w || s.owned.includes(id) || (s.cleared < w.unlock && !(w.id === 'revolver' && s.kills >= 25)) || s.coins < w.price) return false; s.coins -= w.price; s.owned.push(id); note(s, `获得${w.name}。到仓库检查熟练度并穿戴。`); return true }
 export function equip(s: GameState, id: string) { const w = WEAPONS.find(x => x.id === id); if (!w || !s.owned.includes(id)) return false; if (s.proficiency[w.kind] < w.required) { note(s, `${w.name}需要${w.required}点熟练度。基础枪可用于练习。`); return false }; s.weapon = id; s.autoClock = 0; return true }
 export function enhance(s: GameState, id: string) { const lv = s.enhancements[id] ?? 0; const cost = enhancementCost(s, id); if (!featureUnlocked(s,'enhance') || !s.owned.includes(id) || lv >= 10 || s.scrap < cost) return false; s.scrap -= cost; s.enhancements[id] = lv + 1; return true }
 export function refreshMarket(s: GameState) { if (!featureUnlocked(s,'market') || s.refreshes < 1) return false; s.refreshes--; s.marketRoll++; return true }

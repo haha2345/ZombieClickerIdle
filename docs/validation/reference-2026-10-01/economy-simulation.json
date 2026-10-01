@@ -1,0 +1,1333 @@
+{
+  "method": "actual domain rules, 1s steps; automated sensible purchases, upgrades and boss challenges; not a human playthrough",
+  "results": [
+    {
+      "name": "active-3-clicks-no-ads",
+      "completed": true,
+      "hours": 22.4,
+      "timeline": [
+        {
+          "stage": 1,
+          "seconds": 128,
+          "minutes": 2.1,
+          "training": 6,
+          "weapon": "revolver",
+          "ordinaryBaseHits": 6,
+          "kills": 25,
+          "coins": 1100
+        },
+        {
+          "stage": 2,
+          "seconds": 225,
+          "minutes": 3.8,
+          "training": 7,
+          "weapon": "revolver",
+          "ordinaryBaseHits": 10,
+          "kills": 45,
+          "coins": 949
+        },
+        {
+          "stage": 3,
+          "seconds": 353,
+          "minutes": 5.9,
+          "training": 8,
+          "weapon": "revolver",
+          "ordinaryBaseHits": 10,
+          "kills": 69,
+          "coins": 1364
+        },
+        {
+          "stage": 4,
+          "seconds": 1104,
+          "minutes": 18.4,
+          "training": 10,
+          "weapon": "carbine",
+          "ordinaryBaseHits": 14,
+          "kills": 173,
+          "coins": 2578
+        },
+        {
+          "stage": 5,
+          "seconds": 3180,
+          "minutes": 53,
+          "training": 18,
+          "weapon": "carbine",
+          "ordinaryBaseHits": 9,
+          "kills": 650,
+          "coins": 17766
+        },
+        {
+          "stage": 6,
+          "seconds": 3535,
+          "minutes": 58.9,
+          "training": 19,
+          "weapon": "sawed",
+          "ordinaryBaseHits": 9,
+          "kills": 756,
+          "coins": 22032
+        },
+        {
+          "stage": 7,
+          "seconds": 4358,
+          "minutes": 72.6,
+          "training": 22,
+          "weapon": "sawed",
+          "ordinaryBaseHits": 8,
+          "kills": 1033,
+          "coins": 38456
+        },
+        {
+          "stage": 8,
+          "seconds": 4848,
+          "minutes": 80.8,
+          "training": 24,
+          "weapon": "famas",
+          "ordinaryBaseHits": 8,
+          "kills": 1232,
+          "coins": 48522
+        },
+        {
+          "stage": 9,
+          "seconds": 12579,
+          "minutes": 209.7,
+          "training": 31,
+          "weapon": "famas",
+          "ordinaryBaseHits": 11,
+          "kills": 2800,
+          "coins": 240779
+        },
+        {
+          "stage": 10,
+          "seconds": 13304,
+          "minutes": 221.7,
+          "training": 32,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 6,
+          "kills": 3113,
+          "coins": 175925
+        },
+        {
+          "stage": 11,
+          "seconds": 16138,
+          "minutes": 269,
+          "training": 35,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 5,
+          "kills": 4501,
+          "coins": 4542276
+        },
+        {
+          "stage": 12,
+          "seconds": 22779,
+          "minutes": 379.6,
+          "training": 40,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 7,
+          "kills": 7020,
+          "coins": 375175
+        },
+        {
+          "stage": 13,
+          "seconds": 23045,
+          "minutes": 384.1,
+          "training": 40,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 6,
+          "kills": 7172,
+          "coins": 4063694
+        },
+        {
+          "stage": 14,
+          "seconds": 23330,
+          "minutes": 388.8,
+          "training": 40,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 7,
+          "kills": 7333,
+          "coins": 11553799
+        },
+        {
+          "stage": 15,
+          "seconds": 27479,
+          "minutes": 458,
+          "training": 44,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 8,
+          "kills": 9160,
+          "coins": 16509706
+        },
+        {
+          "stage": 16,
+          "seconds": 62532,
+          "minutes": 1042.2,
+          "training": 52,
+          "weapon": "pump",
+          "ordinaryBaseHits": 6,
+          "kills": 21940,
+          "coins": 4068498
+        },
+        {
+          "stage": 17,
+          "seconds": 62960,
+          "minutes": 1049.3,
+          "training": 52,
+          "weapon": "pump",
+          "ordinaryBaseHits": 7,
+          "kills": 22128,
+          "coins": 43098226
+        },
+        {
+          "stage": 18,
+          "seconds": 63452,
+          "minutes": 1057.5,
+          "training": 52,
+          "weapon": "pump",
+          "ordinaryBaseHits": 8,
+          "kills": 22325,
+          "coins": 101736899
+        },
+        {
+          "stage": 19,
+          "seconds": 63798,
+          "minutes": 1063.3,
+          "training": 52,
+          "weapon": "marksman",
+          "ordinaryBaseHits": 6,
+          "kills": 22531,
+          "coins": 175733630
+        },
+        {
+          "stage": 20,
+          "seconds": 78542,
+          "minutes": 1309,
+          "training": 57,
+          "weapon": "marksman",
+          "ordinaryBaseHits": 7,
+          "kills": 29260,
+          "coins": 28177519
+        },
+        {
+          "stage": 21,
+          "seconds": 79177,
+          "minutes": 1319.6,
+          "training": 57,
+          "weapon": "rail",
+          "ordinaryBaseHits": 7,
+          "kills": 29484,
+          "coins": 192259360
+        },
+        {
+          "stage": 22,
+          "seconds": 79622,
+          "minutes": 1327,
+          "training": 57,
+          "weapon": "rail",
+          "ordinaryBaseHits": 9,
+          "kills": 29717,
+          "coins": 582152835
+        },
+        {
+          "stage": 23,
+          "seconds": 80118,
+          "minutes": 1335.3,
+          "training": 57,
+          "weapon": "rail",
+          "ordinaryBaseHits": 9,
+          "kills": 29959,
+          "coins": 1212966882
+        },
+        {
+          "stage": 24,
+          "seconds": 80655,
+          "minutes": 1344.3,
+          "training": 58,
+          "weapon": "rail",
+          "ordinaryBaseHits": 9,
+          "kills": 30210,
+          "coins": 390753942
+        }
+      ],
+      "unlocks": [
+        {
+          "id": "training",
+          "name": "射击训练",
+          "seconds": 30,
+          "minutes": 0.5,
+          "kills": 5,
+          "cleared": 0
+        },
+        {
+          "id": "market",
+          "name": "黑市与枪柜",
+          "seconds": 110,
+          "minutes": 1.8,
+          "kills": 25,
+          "cleared": 0
+        },
+        {
+          "id": "enhance",
+          "name": "武器强化",
+          "seconds": 302,
+          "minutes": 5,
+          "kills": 60,
+          "cleared": 2
+        },
+        {
+          "id": "burst",
+          "name": "集中火力与首领战术",
+          "seconds": 302,
+          "minutes": 5,
+          "kills": 60,
+          "cleared": 2
+        },
+        {
+          "id": "map",
+          "name": "路线与图鉴",
+          "seconds": 763,
+          "minutes": 12.7,
+          "kills": 120,
+          "cleared": 3
+        },
+        {
+          "id": "supply",
+          "name": "无线电补给",
+          "seconds": 763,
+          "minutes": 12.7,
+          "kills": 120,
+          "cleared": 3
+        },
+        {
+          "id": "auto",
+          "name": "永久自动与离线回收",
+          "seconds": 2117,
+          "minutes": 35.3,
+          "kills": 300,
+          "cleared": 4
+        },
+        {
+          "id": "handbooks",
+          "name": "残页与永久手册",
+          "seconds": 3158,
+          "minutes": 52.6,
+          "kills": 650,
+          "cleared": 4
+        },
+        {
+          "id": "pets",
+          "name": "第一位伙伴：欧比",
+          "seconds": 4255,
+          "minutes": 70.9,
+          "kills": 1000,
+          "cleared": 6
+        },
+        {
+          "id": "research",
+          "name": "永久研究",
+          "seconds": 12562,
+          "minutes": 209.4,
+          "kills": 2800,
+          "cleared": 8
+        }
+      ],
+      "kills": 30210,
+      "training": 58,
+      "ads": 0
+    },
+    {
+      "name": "active-5-clicks-no-ads",
+      "completed": true,
+      "hours": 12.04,
+      "timeline": [
+        {
+          "stage": 1,
+          "seconds": 78,
+          "minutes": 1.3,
+          "training": 6,
+          "weapon": "glock",
+          "ordinaryBaseHits": 10,
+          "kills": 20,
+          "coins": 970
+        },
+        {
+          "stage": 2,
+          "seconds": 151,
+          "minutes": 2.5,
+          "training": 7,
+          "weapon": "revolver",
+          "ordinaryBaseHits": 10,
+          "kills": 40,
+          "coins": 869
+        },
+        {
+          "stage": 3,
+          "seconds": 237,
+          "minutes": 4,
+          "training": 8,
+          "weapon": "revolver",
+          "ordinaryBaseHits": 10,
+          "kills": 64,
+          "coins": 1554
+        },
+        {
+          "stage": 4,
+          "seconds": 558,
+          "minutes": 9.3,
+          "training": 9,
+          "weapon": "carbine",
+          "ordinaryBaseHits": 16,
+          "kills": 135,
+          "coins": 3673
+        },
+        {
+          "stage": 5,
+          "seconds": 1733,
+          "minutes": 28.9,
+          "training": 16,
+          "weapon": "carbine",
+          "ordinaryBaseHits": 12,
+          "kills": 442,
+          "coins": 25531
+        },
+        {
+          "stage": 6,
+          "seconds": 2009,
+          "minutes": 33.5,
+          "training": 18,
+          "weapon": "sawed",
+          "ordinaryBaseHits": 13,
+          "kills": 531,
+          "coins": 12533
+        },
+        {
+          "stage": 7,
+          "seconds": 2627,
+          "minutes": 43.8,
+          "training": 21,
+          "weapon": "sawed",
+          "ordinaryBaseHits": 10,
+          "kills": 762,
+          "coins": 21107
+        },
+        {
+          "stage": 8,
+          "seconds": 3111,
+          "minutes": 51.9,
+          "training": 22,
+          "weapon": "famas",
+          "ordinaryBaseHits": 10,
+          "kills": 973,
+          "coins": 153823
+        },
+        {
+          "stage": 9,
+          "seconds": 8496,
+          "minutes": 141.6,
+          "training": 30,
+          "weapon": "famas",
+          "ordinaryBaseHits": 17,
+          "kills": 2200,
+          "coins": 129294
+        },
+        {
+          "stage": 10,
+          "seconds": 9691,
+          "minutes": 161.5,
+          "training": 31,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 9,
+          "kills": 2732,
+          "coins": 1133534
+        },
+        {
+          "stage": 11,
+          "seconds": 10470,
+          "minutes": 174.5,
+          "training": 33,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 7,
+          "kills": 3133,
+          "coins": 657978
+        },
+        {
+          "stage": 12,
+          "seconds": 13787,
+          "minutes": 229.8,
+          "training": 37,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 9,
+          "kills": 4443,
+          "coins": 292841
+        },
+        {
+          "stage": 13,
+          "seconds": 14082,
+          "minutes": 234.7,
+          "training": 37,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 9,
+          "kills": 4595,
+          "coins": 3654308
+        },
+        {
+          "stage": 14,
+          "seconds": 14384,
+          "minutes": 239.7,
+          "training": 38,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 9,
+          "kills": 4756,
+          "coins": 1288517
+        },
+        {
+          "stage": 15,
+          "seconds": 17786,
+          "minutes": 296.4,
+          "training": 43,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 9,
+          "kills": 6331,
+          "coins": 1273314
+        },
+        {
+          "stage": 16,
+          "seconds": 31386,
+          "minutes": 523.1,
+          "training": 49,
+          "weapon": "pump",
+          "ordinaryBaseHits": 9,
+          "kills": 11721,
+          "coins": 2279105
+        },
+        {
+          "stage": 17,
+          "seconds": 31791,
+          "minutes": 529.9,
+          "training": 49,
+          "weapon": "pump",
+          "ordinaryBaseHits": 10,
+          "kills": 11909,
+          "coins": 36853941
+        },
+        {
+          "stage": 18,
+          "seconds": 32258,
+          "minutes": 537.6,
+          "training": 49,
+          "weapon": "pump",
+          "ordinaryBaseHits": 11,
+          "kills": 12106,
+          "coins": 93352981
+        },
+        {
+          "stage": 19,
+          "seconds": 32624,
+          "minutes": 543.7,
+          "training": 49,
+          "weapon": "marksman",
+          "ordinaryBaseHits": 9,
+          "kills": 12312,
+          "coins": 163732847
+        },
+        {
+          "stage": 20,
+          "seconds": 41329,
+          "minutes": 688.8,
+          "training": 55,
+          "weapon": "marksman",
+          "ordinaryBaseHits": 9,
+          "kills": 16434,
+          "coins": 13095214
+        },
+        {
+          "stage": 21,
+          "seconds": 41935,
+          "minutes": 698.9,
+          "training": 55,
+          "weapon": "rail",
+          "ordinaryBaseHits": 9,
+          "kills": 16658,
+          "coins": 177406671
+        },
+        {
+          "stage": 22,
+          "seconds": 42368,
+          "minutes": 706.1,
+          "training": 55,
+          "weapon": "rail",
+          "ordinaryBaseHits": 11,
+          "kills": 16891,
+          "coins": 573528477
+        },
+        {
+          "stage": 23,
+          "seconds": 42839,
+          "minutes": 714,
+          "training": 56,
+          "weapon": "rail",
+          "ordinaryBaseHits": 10,
+          "kills": 17133,
+          "coins": 120373707
+        },
+        {
+          "stage": 24,
+          "seconds": 43330,
+          "minutes": 722.2,
+          "training": 56,
+          "weapon": "rail",
+          "ordinaryBaseHits": 11,
+          "kills": 17384,
+          "coins": 1216378500
+        }
+      ],
+      "unlocks": [
+        {
+          "id": "training",
+          "name": "射击训练",
+          "seconds": 19,
+          "minutes": 0.3,
+          "kills": 5,
+          "cleared": 0
+        },
+        {
+          "id": "market",
+          "name": "黑市与枪柜",
+          "seconds": 99,
+          "minutes": 1.6,
+          "kills": 25,
+          "cleared": 1
+        },
+        {
+          "id": "enhance",
+          "name": "武器强化",
+          "seconds": 217,
+          "minutes": 3.6,
+          "kills": 60,
+          "cleared": 2
+        },
+        {
+          "id": "burst",
+          "name": "集中火力与首领战术",
+          "seconds": 217,
+          "minutes": 3.6,
+          "kills": 60,
+          "cleared": 2
+        },
+        {
+          "id": "map",
+          "name": "路线与图鉴",
+          "seconds": 493,
+          "minutes": 8.2,
+          "kills": 120,
+          "cleared": 3
+        },
+        {
+          "id": "supply",
+          "name": "无线电补给",
+          "seconds": 493,
+          "minutes": 8.2,
+          "kills": 120,
+          "cleared": 3
+        },
+        {
+          "id": "auto",
+          "name": "永久自动与离线回收",
+          "seconds": 1367,
+          "minutes": 22.8,
+          "kills": 300,
+          "cleared": 4
+        },
+        {
+          "id": "handbooks",
+          "name": "残页与永久手册",
+          "seconds": 2356,
+          "minutes": 39.3,
+          "kills": 650,
+          "cleared": 6
+        },
+        {
+          "id": "pets",
+          "name": "第一位伙伴：欧比",
+          "seconds": 3317,
+          "minutes": 55.3,
+          "kills": 1000,
+          "cleared": 8
+        },
+        {
+          "id": "research",
+          "name": "永久研究",
+          "seconds": 9862,
+          "minutes": 164.4,
+          "kills": 2800,
+          "cleared": 10
+        }
+      ],
+      "kills": 17384,
+      "training": 56,
+      "ads": 0
+    },
+    {
+      "name": "active-5-clicks-3-late-supplies",
+      "completed": true,
+      "hours": 11.95,
+      "timeline": [
+        {
+          "stage": 1,
+          "seconds": 78,
+          "minutes": 1.3,
+          "training": 6,
+          "weapon": "glock",
+          "ordinaryBaseHits": 10,
+          "kills": 20,
+          "coins": 970
+        },
+        {
+          "stage": 2,
+          "seconds": 151,
+          "minutes": 2.5,
+          "training": 7,
+          "weapon": "revolver",
+          "ordinaryBaseHits": 10,
+          "kills": 40,
+          "coins": 869
+        },
+        {
+          "stage": 3,
+          "seconds": 237,
+          "minutes": 4,
+          "training": 8,
+          "weapon": "revolver",
+          "ordinaryBaseHits": 10,
+          "kills": 64,
+          "coins": 1554
+        },
+        {
+          "stage": 4,
+          "seconds": 558,
+          "minutes": 9.3,
+          "training": 9,
+          "weapon": "carbine",
+          "ordinaryBaseHits": 16,
+          "kills": 135,
+          "coins": 3673
+        },
+        {
+          "stage": 5,
+          "seconds": 1733,
+          "minutes": 28.9,
+          "training": 16,
+          "weapon": "carbine",
+          "ordinaryBaseHits": 12,
+          "kills": 442,
+          "coins": 25531
+        },
+        {
+          "stage": 6,
+          "seconds": 2009,
+          "minutes": 33.5,
+          "training": 18,
+          "weapon": "sawed",
+          "ordinaryBaseHits": 13,
+          "kills": 531,
+          "coins": 12533
+        },
+        {
+          "stage": 7,
+          "seconds": 2627,
+          "minutes": 43.8,
+          "training": 21,
+          "weapon": "sawed",
+          "ordinaryBaseHits": 10,
+          "kills": 762,
+          "coins": 21107
+        },
+        {
+          "stage": 8,
+          "seconds": 3111,
+          "minutes": 51.9,
+          "training": 22,
+          "weapon": "famas",
+          "ordinaryBaseHits": 10,
+          "kills": 973,
+          "coins": 153823
+        },
+        {
+          "stage": 9,
+          "seconds": 8496,
+          "minutes": 141.6,
+          "training": 30,
+          "weapon": "famas",
+          "ordinaryBaseHits": 17,
+          "kills": 2200,
+          "coins": 129294
+        },
+        {
+          "stage": 10,
+          "seconds": 9691,
+          "minutes": 161.5,
+          "training": 31,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 9,
+          "kills": 2732,
+          "coins": 1133534
+        },
+        {
+          "stage": 11,
+          "seconds": 10470,
+          "minutes": 174.5,
+          "training": 33,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 7,
+          "kills": 3133,
+          "coins": 657978
+        },
+        {
+          "stage": 12,
+          "seconds": 13787,
+          "minutes": 229.8,
+          "training": 37,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 9,
+          "kills": 4443,
+          "coins": 292841
+        },
+        {
+          "stage": 13,
+          "seconds": 14082,
+          "minutes": 234.7,
+          "training": 37,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 9,
+          "kills": 4595,
+          "coins": 3654308
+        },
+        {
+          "stage": 14,
+          "seconds": 14384,
+          "minutes": 239.7,
+          "training": 38,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 9,
+          "kills": 4756,
+          "coins": 1288517
+        },
+        {
+          "stage": 15,
+          "seconds": 17786,
+          "minutes": 296.4,
+          "training": 43,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 9,
+          "kills": 6331,
+          "coins": 1273314
+        },
+        {
+          "stage": 16,
+          "seconds": 31386,
+          "minutes": 523.1,
+          "training": 49,
+          "weapon": "pump",
+          "ordinaryBaseHits": 9,
+          "kills": 11721,
+          "coins": 2279105
+        },
+        {
+          "stage": 17,
+          "seconds": 31791,
+          "minutes": 529.9,
+          "training": 49,
+          "weapon": "pump",
+          "ordinaryBaseHits": 10,
+          "kills": 11909,
+          "coins": 36853941
+        },
+        {
+          "stage": 18,
+          "seconds": 32258,
+          "minutes": 537.6,
+          "training": 49,
+          "weapon": "pump",
+          "ordinaryBaseHits": 11,
+          "kills": 12106,
+          "coins": 115981467
+        },
+        {
+          "stage": 19,
+          "seconds": 32618,
+          "minutes": 543.6,
+          "training": 50,
+          "weapon": "marksman",
+          "ordinaryBaseHits": 8,
+          "kills": 12312,
+          "coins": 17457723
+        },
+        {
+          "stage": 20,
+          "seconds": 41030,
+          "minutes": 683.8,
+          "training": 55,
+          "weapon": "marksman",
+          "ordinaryBaseHits": 9,
+          "kills": 16329,
+          "coins": 13882272
+        },
+        {
+          "stage": 21,
+          "seconds": 41635,
+          "minutes": 693.9,
+          "training": 55,
+          "weapon": "rail",
+          "ordinaryBaseHits": 9,
+          "kills": 16553,
+          "coins": 178193729
+        },
+        {
+          "stage": 22,
+          "seconds": 42071,
+          "minutes": 701.2,
+          "training": 55,
+          "weapon": "rail",
+          "ordinaryBaseHits": 11,
+          "kills": 16786,
+          "coins": 574315535
+        },
+        {
+          "stage": 23,
+          "seconds": 42544,
+          "minutes": 709.1,
+          "training": 56,
+          "weapon": "rail",
+          "ordinaryBaseHits": 10,
+          "kills": 17028,
+          "coins": 121160765
+        },
+        {
+          "stage": 24,
+          "seconds": 43036,
+          "minutes": 717.3,
+          "training": 56,
+          "weapon": "rail",
+          "ordinaryBaseHits": 11,
+          "kills": 17279,
+          "coins": 1203057054
+        }
+      ],
+      "unlocks": [
+        {
+          "id": "training",
+          "name": "射击训练",
+          "seconds": 19,
+          "minutes": 0.3,
+          "kills": 5,
+          "cleared": 0
+        },
+        {
+          "id": "market",
+          "name": "黑市与枪柜",
+          "seconds": 99,
+          "minutes": 1.6,
+          "kills": 25,
+          "cleared": 1
+        },
+        {
+          "id": "enhance",
+          "name": "武器强化",
+          "seconds": 217,
+          "minutes": 3.6,
+          "kills": 60,
+          "cleared": 2
+        },
+        {
+          "id": "burst",
+          "name": "集中火力与首领战术",
+          "seconds": 217,
+          "minutes": 3.6,
+          "kills": 60,
+          "cleared": 2
+        },
+        {
+          "id": "map",
+          "name": "路线与图鉴",
+          "seconds": 493,
+          "minutes": 8.2,
+          "kills": 120,
+          "cleared": 3
+        },
+        {
+          "id": "supply",
+          "name": "无线电补给",
+          "seconds": 493,
+          "minutes": 8.2,
+          "kills": 120,
+          "cleared": 3
+        },
+        {
+          "id": "auto",
+          "name": "永久自动与离线回收",
+          "seconds": 1367,
+          "minutes": 22.8,
+          "kills": 300,
+          "cleared": 4
+        },
+        {
+          "id": "handbooks",
+          "name": "残页与永久手册",
+          "seconds": 2356,
+          "minutes": 39.3,
+          "kills": 650,
+          "cleared": 6
+        },
+        {
+          "id": "pets",
+          "name": "第一位伙伴：欧比",
+          "seconds": 3317,
+          "minutes": 55.3,
+          "kills": 1000,
+          "cleared": 8
+        },
+        {
+          "id": "research",
+          "name": "永久研究",
+          "seconds": 9862,
+          "minutes": 164.4,
+          "kills": 2800,
+          "cleared": 10
+        }
+      ],
+      "kills": 17279,
+      "training": 56,
+      "ads": 3
+    },
+    {
+      "name": "active-5-clicks-3-early-supplies",
+      "completed": true,
+      "hours": 12.03,
+      "timeline": [
+        {
+          "stage": 1,
+          "seconds": 78,
+          "minutes": 1.3,
+          "training": 6,
+          "weapon": "glock",
+          "ordinaryBaseHits": 10,
+          "kills": 20,
+          "coins": 970
+        },
+        {
+          "stage": 2,
+          "seconds": 151,
+          "minutes": 2.5,
+          "training": 7,
+          "weapon": "revolver",
+          "ordinaryBaseHits": 10,
+          "kills": 40,
+          "coins": 869
+        },
+        {
+          "stage": 3,
+          "seconds": 237,
+          "minutes": 4,
+          "training": 8,
+          "weapon": "revolver",
+          "ordinaryBaseHits": 10,
+          "kills": 64,
+          "coins": 1554
+        },
+        {
+          "stage": 4,
+          "seconds": 546,
+          "minutes": 9.1,
+          "training": 11,
+          "weapon": "carbine",
+          "ordinaryBaseHits": 13,
+          "kills": 135,
+          "coins": 2189
+        },
+        {
+          "stage": 5,
+          "seconds": 1460,
+          "minutes": 24.3,
+          "training": 17,
+          "weapon": "carbine",
+          "ordinaryBaseHits": 11,
+          "kills": 377,
+          "coins": 8089
+        },
+        {
+          "stage": 6,
+          "seconds": 1879,
+          "minutes": 31.3,
+          "training": 19,
+          "weapon": "sawed",
+          "ordinaryBaseHits": 12,
+          "kills": 518,
+          "coins": 456
+        },
+        {
+          "stage": 7,
+          "seconds": 2386,
+          "minutes": 39.8,
+          "training": 21,
+          "weapon": "sawed",
+          "ordinaryBaseHits": 10,
+          "kills": 707,
+          "coins": 21240
+        },
+        {
+          "stage": 8,
+          "seconds": 2921,
+          "minutes": 48.7,
+          "training": 23,
+          "weapon": "famas",
+          "ordinaryBaseHits": 10,
+          "kills": 932,
+          "coins": 36054
+        },
+        {
+          "stage": 9,
+          "seconds": 8409,
+          "minutes": 140.2,
+          "training": 30,
+          "weapon": "famas",
+          "ordinaryBaseHits": 17,
+          "kills": 2166,
+          "coins": 81500
+        },
+        {
+          "stage": 10,
+          "seconds": 9635,
+          "minutes": 160.6,
+          "training": 31,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 9,
+          "kills": 2706,
+          "coins": 1181946
+        },
+        {
+          "stage": 11,
+          "seconds": 10469,
+          "minutes": 174.5,
+          "training": 33,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 7,
+          "kills": 3133,
+          "coins": 895205
+        },
+        {
+          "stage": 12,
+          "seconds": 13742,
+          "minutes": 229,
+          "training": 37,
+          "weapon": "magnum",
+          "ordinaryBaseHits": 9,
+          "kills": 4428,
+          "coins": 301089
+        },
+        {
+          "stage": 13,
+          "seconds": 14039,
+          "minutes": 234,
+          "training": 37,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 9,
+          "kills": 4580,
+          "coins": 3756029
+        },
+        {
+          "stage": 14,
+          "seconds": 14340,
+          "minutes": 239,
+          "training": 38,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 9,
+          "kills": 4741,
+          "coins": 1380556
+        },
+        {
+          "stage": 15,
+          "seconds": 17750,
+          "minutes": 295.8,
+          "training": 43,
+          "weapon": "auto-rifle",
+          "ordinaryBaseHits": 9,
+          "kills": 6319,
+          "coins": 1247690
+        },
+        {
+          "stage": 16,
+          "seconds": 31358,
+          "minutes": 522.6,
+          "training": 49,
+          "weapon": "pump",
+          "ordinaryBaseHits": 9,
+          "kills": 11708,
+          "coins": 2116488
+        },
+        {
+          "stage": 17,
+          "seconds": 31761,
+          "minutes": 529.4,
+          "training": 49,
+          "weapon": "pump",
+          "ordinaryBaseHits": 10,
+          "kills": 11896,
+          "coins": 36649306
+        },
+        {
+          "stage": 18,
+          "seconds": 32225,
+          "minutes": 537.1,
+          "training": 49,
+          "weapon": "pump",
+          "ordinaryBaseHits": 11,
+          "kills": 12093,
+          "coins": 93148346
+        },
+        {
+          "stage": 19,
+          "seconds": 32591,
+          "minutes": 543.2,
+          "training": 49,
+          "weapon": "marksman",
+          "ordinaryBaseHits": 9,
+          "kills": 12299,
+          "coins": 163620202
+        },
+        {
+          "stage": 20,
+          "seconds": 41296,
+          "minutes": 688.3,
+          "training": 55,
+          "weapon": "marksman",
+          "ordinaryBaseHits": 9,
+          "kills": 16421,
+          "coins": 15575006
+        },
+        {
+          "stage": 21,
+          "seconds": 41903,
+          "minutes": 698.4,
+          "training": 55,
+          "weapon": "marksman",
+          "ordinaryBaseHits": 16,
+          "kills": 16645,
+          "coins": 259886463
+        },
+        {
+          "stage": 22,
+          "seconds": 42339,
+          "minutes": 705.6,
+          "training": 55,
+          "weapon": "rail",
+          "ordinaryBaseHits": 11,
+          "kills": 16878,
+          "coins": 569779938
+        },
+        {
+          "stage": 23,
+          "seconds": 42811,
+          "minutes": 713.5,
+          "training": 56,
+          "weapon": "rail",
+          "ordinaryBaseHits": 10,
+          "kills": 17120,
+          "coins": 126279077
+        },
+        {
+          "stage": 24,
+          "seconds": 43301,
+          "minutes": 721.7,
+          "training": 56,
+          "weapon": "rail",
+          "ordinaryBaseHits": 11,
+          "kills": 17371,
+          "coins": 1208175366
+        }
+      ],
+      "unlocks": [
+        {
+          "id": "training",
+          "name": "射击训练",
+          "seconds": 19,
+          "minutes": 0.3,
+          "kills": 5,
+          "cleared": 0
+        },
+        {
+          "id": "market",
+          "name": "黑市与枪柜",
+          "seconds": 99,
+          "minutes": 1.6,
+          "kills": 25,
+          "cleared": 1
+        },
+        {
+          "id": "enhance",
+          "name": "武器强化",
+          "seconds": 217,
+          "minutes": 3.6,
+          "kills": 60,
+          "cleared": 2
+        },
+        {
+          "id": "burst",
+          "name": "集中火力与首领战术",
+          "seconds": 217,
+          "minutes": 3.6,
+          "kills": 60,
+          "cleared": 2
+        },
+        {
+          "id": "map",
+          "name": "路线与图鉴",
+          "seconds": 493,
+          "minutes": 8.2,
+          "kills": 120,
+          "cleared": 3
+        },
+        {
+          "id": "supply",
+          "name": "无线电补给",
+          "seconds": 493,
+          "minutes": 8.2,
+          "kills": 120,
+          "cleared": 3
+        },
+        {
+          "id": "auto",
+          "name": "永久自动与离线回收",
+          "seconds": 1259,
+          "minutes": 21,
+          "kills": 300,
+          "cleared": 4
+        },
+        {
+          "id": "handbooks",
+          "name": "残页与永久手册",
+          "seconds": 2235,
+          "minutes": 37.3,
+          "kills": 650,
+          "cleared": 6
+        },
+        {
+          "id": "pets",
+          "name": "第一位伙伴：欧比",
+          "seconds": 3460,
+          "minutes": 57.7,
+          "kills": 1000,
+          "cleared": 8
+        },
+        {
+          "id": "research",
+          "name": "永久研究",
+          "seconds": 9865,
+          "minutes": 164.4,
+          "kills": 2800,
+          "cleared": 10
+        }
+      ],
+      "kills": 17371,
+      "training": 56,
+      "ads": 3
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "passed": 12,
+  "checks": [
+    "5th kill lights manual button inside game; approach and contact retreat",
+    "actual long ordinary fight; prepare with training, buy/equip then beat first boss",
+    "hold mouse/space and B burst; fullscreen toggle",
+    "boss timeout/retreat and actual first-clear route progression",
+    "market buy, proficiency lock, equip and strengthen an unselected gun",
+    "handbook/companion/research/achievements through UI",
+    "plant boss rendered with countdown; success ending at24",
+    "ads cancel no reward; complete cooldown and no duplicate; typing modal blocks shots",
+    "offline base claim, optional extra once, saved reload and corrupt-save preservation",
+    "invalid import keeps current state; downloaded/export text and confirmed reset",
+    "mobile fits, fixed navigation changes panel and returns to battle",
+    "all visible controls contained in game surface; menus block shooting"
+  ],
+  "errors": []
+}

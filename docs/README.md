@@ -1,4 +1,6 @@
-当前运行设计：[v0.3画面内HUD、主动首领与渐进开放](design/demo-v0.3.md)。历史v0.2保留供对照。
+当前新增参考与实现：[2026-10-01录像、UI与战斗节奏](research/video-analysis-2026-10-01.md)，[图标／动画来源](assets/2026-10-01-reference-replica.md)。
+
+历史运行设计：[v0.3画面内HUD、主动首领与渐进开放](design/demo-v0.3.md)。历史v0.2保留供对照。
 
 # 文档导航
 
@@ -9,4 +11,4 @@
 5. [美术资源](assets/README.md)：参考、图生图、视频与 Sprite sheet 流程。
 6. [同类游戏与借鉴建议](research/similar-games-2026-09-30.md)：七款参考游戏、来源、M1 可吸收的变化与广告补给设计。
 
-当前 M0 已完成的是模板；首版数值和后期玩法仍待验证。
+当前已经实现小品级演示，验证记录见 docs/validation；长期节奏与真实手机表现仍待玩家验收。

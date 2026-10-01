@@ -1,0 +1,294 @@
+{
+  "checks": [
+    "ordinary enemy plays distinct video frames",
+    "shot changes damage and hero sprite frames, then recovers",
+    "menu pauses sprite motion and returns to animated combat",
+    "recorded actual game with HUD and shooting animation",
+    "tyrant-walk animates while approaching",
+    "plant-idle animates while approaching"
+  ],
+  "errors": [],
+  "heroFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "enemyFrames": [
+    4,
+    9,
+    13,
+    18,
+    22
+  ],
+  "capture": [
+    {
+      "heroFrame": 1,
+      "heroPlaying": true,
+      "enemyFrame": 21,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 304.8036363636364,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 2,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 26,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 2,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 30,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 2,
+      "loopBlend": 0.25
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 0,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 2,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 1,
+      "heroPlaying": true,
+      "enemyFrame": 5,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 304.79636363636365,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 3,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 9,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 3,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 13,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 3,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 17,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 3,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 1,
+      "heroPlaying": true,
+      "enemyFrame": 21,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 304.7381818181818,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 4,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 25,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 4,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 30,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 4,
+      "loopBlend": 0.25
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 0,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 4,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": true,
+      "enemyFrame": 4,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 305.3709090909091,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 5,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 9,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 5,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 13,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 5,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 18,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 5,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 1,
+      "heroPlaying": true,
+      "enemyFrame": 23,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 304.7927272727273,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 6,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 27,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 6,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 31,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 6,
+      "loopBlend": 0.5
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 1,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 6,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 2,
+      "heroPlaying": true,
+      "enemyFrame": 6,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 304.19272727272727,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 7,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 10,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 7,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 14,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 7,
+      "loopBlend": 0
+    },
+    {
+      "heroFrame": 0,
+      "heroPlaying": false,
+      "enemyFrame": 19,
+      "enemyAnimation": "zombie-walk",
+      "enemyX": 302,
+      "enemyY": 510,
+      "enemyHeight": 272,
+      "impactCount": 7,
+      "loopBlend": 0
+    }
+  ]
+}
