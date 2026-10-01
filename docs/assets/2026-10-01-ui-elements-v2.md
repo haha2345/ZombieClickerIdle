@@ -2,6 +2,8 @@
 
 用户要求：先提交并 push，然后制作 UI 元素，1:1 复刻界面。先将现有节奏／动画版本提交为 `0468458`，已 push 到 origin/main，并核对本地与远端跟踪提交一致，再开始本轮 UI 制作。
 
+UI实现提交：`38c82d1`。
+
 ## 参照与布局
 
 观察依据为用户提供录像的实际关键帧：198 秒黑市、220 秒技能、541 秒资料仓库、264 秒首领情报、190 秒战斗、288 秒失败、330 秒胜利。录像顶部 88px 是小游戏容器工具栏，不计入游戏；游戏参照区是 680×1206。
@@ -95,4 +97,3 @@ Use case: precise-object-edit. Asset type: original full-screen victory UI illus
 ```text
 Use case: precise-object-edit. Edit target: first image, the generated '活力来了!' victory illustration. Supporting exact composition reference: second image, original screenshot. Keep the woman's identity, colors, Chinese lettering and comic artwork unchanged, but fix the composition to match the original screenshot's banner 1:1. IMPORTANT the output must be MUCH TALLER: width:height approximately 680:530 (about 1.28:1), NOT a wide 2:1 banner. Woman on RIGHT fills the complete banner height, aiming arm toward upper-left; her tank top and shorts visible; the giant '活力' line at middle-left, '来了!' line below at lower-left. Yellow diagonal comic panel covers the lower two thirds as in original, original woman's head near top-right. Make text and portrait large and overlapping exactly as reference. Keep full Chinese phrase correct. No blank margins, no outer game screenshot, no buttons or resources. Transparent alpha outside the illustrated silhouette and slanted yellow panel. Reframe/reposition only; don't add anything.
 ```
-
