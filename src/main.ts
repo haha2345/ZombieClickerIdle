@@ -4,3 +4,5 @@ import './ui/styles/main.css'
 import './ui/styles/reference.css'
 
 createApp(App).mount('#app')
+
+import './ui/styles/replica.css'

@@ -241,6 +241,69 @@
       "seconds": 288,
       "role": "reference-only",
       "sha256": "1e2aa12575fb430e3865e432a83b0842d451c1403a5a2d847cb0716bed67cdc6"
+    },
+    {
+      "path": "art/source/ui/reference-v2/blueprint-master.png",
+      "source": "built-in imagegen image-to-image",
+      "role": "generated-ui-master",
+      "sha256": "077334e30954d7b89dc308ed146a777781f612a52cc2794607c178baaa3d60f1",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md"
+    },
+    {
+      "path": "art/source/ui/reference-v2/chrome-atlas.png",
+      "source": "built-in imagegen image-to-image",
+      "role": "generated-ui-master",
+      "sha256": "976e2b1c777e96988cb2ee8568688af3adb987b3a647caef210c19be6db0912d",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md"
+    },
+    {
+      "path": "art/source/ui/reference-v2/combat-master.png",
+      "source": "built-in imagegen image-to-image",
+      "role": "generated-ui-master",
+      "sha256": "0c27baf244cd2a263c5a1d101603c032ac836fd474d6868dd578ee232f17389e",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md"
+    },
+    {
+      "path": "art/source/ui/reference-v2/header-master.png",
+      "source": "built-in imagegen image-to-image",
+      "role": "generated-ui-master",
+      "sha256": "73848c0125bbe0a36b6729158c929ef9834947064809517c64622429c9ccfe53",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md"
+    },
+    {
+      "path": "art/source/ui/reference-v2/nav-master.png",
+      "source": "built-in imagegen image-to-image",
+      "role": "generated-ui-master",
+      "sha256": "9fd162bcb3cec5acbdabee16a2b5c981606a4f5d49a88f11157a193365d89608",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md"
+    },
+    {
+      "path": "art/source/ui/reference-v2/paper-master.png",
+      "source": "built-in imagegen image-to-image",
+      "role": "generated-ui-master",
+      "sha256": "2b5f60aaa3a904907f1ca19f0e2ae5133aa2997f753cbd7a08e788201cb3483c",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md"
+    },
+    {
+      "path": "art/source/ui/reference-v2/result-defeat-master.png",
+      "source": "built-in imagegen image-to-image",
+      "role": "generated-ui-master",
+      "sha256": "56fccc6c2f168a4ced47efbe6587e050f8443e045f10ebdf64fb7a6119e4d054",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md"
+    },
+    {
+      "path": "art/source/ui/reference-v2/result-victory-master.png",
+      "source": "built-in imagegen image-to-image",
+      "role": "generated-ui-master",
+      "sha256": "1b3f2598bc02692c468864a2658211a0e65727ef611ae887c04e1bbdd4abab30",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md"
+    },
+    {
+      "path": "art/source/ui/reference-v2/result-victory-wide-master.png",
+      "source": "built-in imagegen image-to-image",
+      "role": "generated-ui-master",
+      "sha256": "fd6fb0a2a8091ea065f596633ee6d126f989ab7da88f377c01508037d9762ddc",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md"
     }
   ],
   "runtimeAssets": [
@@ -687,6 +750,533 @@
       "sha256": "dc9d45af392f00438b9e3165715f7f99d5eee0a3e3e8f6648e57890d1355267a",
       "animation": "static",
       "provenance": "docs/assets/2026-10-01-reference-replica.md"
+    },
+    {
+      "path": "public/assets/ui/reference-v2/nav-idle.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 134,
+      "height": 235,
+      "pngColorType": 6,
+      "sha256": "30b29002a9283e65350b2aad418d1461090c9cb6c39a036f814f2c3401cad3ec",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        101,
+        62,
+        235,
+        297
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/nav-selected.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 140,
+      "height": 238,
+      "pngColorType": 6,
+      "sha256": "a9121d6776dbfaf808250521b1ec3635029a0e24b31c7e196968f19f27494d59",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        400,
+        59,
+        540,
+        297
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/button-gold.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 283,
+      "height": 99,
+      "pngColorType": 6,
+      "sha256": "cb4a5439a32856e56199ba12eb40834d188194951f17b7fca4014a57b08069cd",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        641,
+        136,
+        924,
+        235
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/button-disabled.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 281,
+      "height": 100,
+      "pngColorType": 6,
+      "sha256": "83abdc4fd79734e3160c6b048c693cd0ce3ec034e1bdb886ad8d55838d382f00",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        954,
+        136,
+        1235,
+        236
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/list-idle.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 289,
+      "height": 109,
+      "pngColorType": 6,
+      "sha256": "759eab4458bdbc56f301296e21c1461bcc7e3d351c685d7e9b7c78338116a883",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        15,
+        400,
+        304,
+        509
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/list-selected.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 295,
+      "height": 110,
+      "pngColorType": 6,
+      "sha256": "0e653c552e24560f8c746d735e248843e57bc4d26c704fc9b8c73ffd20d4d365",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        324,
+        399,
+        619,
+        509
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/title-paper.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 286,
+      "height": 88,
+      "pngColorType": 6,
+      "sha256": "7e379ed85177a80b423955f5cc340e3a6ef1553965cfe3d8ea8c639db7a39f35",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        639,
+        417,
+        925,
+        505
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/title-metal.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 291,
+      "height": 75,
+      "pngColorType": 6,
+      "sha256": "c0bc47f960a4d493a194360541f36d2376f284affce97f3667bfe340c90b547a",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        948,
+        426,
+        1239,
+        501
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/paper-small.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-spare",
+      "width": 252,
+      "height": 346,
+      "pngColorType": 6,
+      "sha256": "7f47ce3fb94763ba6601b716578479bbffdb9d9268816f1b5b3140247ba3cfbf",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        37,
+        594,
+        289,
+        940
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/blueprint-pistol.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 299,
+      "height": 282,
+      "pngColorType": 6,
+      "sha256": "7efaf7df463eb644c598fabb19121f85abe9613af3c31b96f7b88c737e76060f",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        322,
+        631,
+        621,
+        913
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/stats-paper.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 307,
+      "height": 214,
+      "pngColorType": 6,
+      "sha256": "0f8c7179e38ceb2e3eeb6bb1663c75080fcc313bfd12ccab851b07958ded4a69",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        632,
+        668,
+        939,
+        882
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/market-card.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 238,
+      "height": 312,
+      "pngColorType": 6,
+      "sha256": "ae2fc09a85e20f9796a18c869572e37f2c90dd5e0af89ec335cd12f8c222f3d7",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        978,
+        610,
+        1216,
+        922
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/resource-frame.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 271,
+      "height": 94,
+      "pngColorType": 6,
+      "sha256": "6a5545941fcc81c40cb54607987d1cd6950a9e81d1a0d342d2da6fc2f77ab54e",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        30,
+        1050,
+        301,
+        1144
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/power-frame.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 288,
+      "height": 80,
+      "pngColorType": 6,
+      "sha256": "bcb6d9263eb397a7494b6c69f710b3fbb3172fb5cb7da85a76654d0dba6bfd77",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        329,
+        1057,
+        617,
+        1137
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/coin.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 163,
+      "height": 156,
+      "pngColorType": 6,
+      "sha256": "bbd55f3b771189ec5514c92c75bdacf08b6c32db075ba864cd6574a6c07fcd2b",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        702,
+        1015,
+        865,
+        1171
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/portrait.png",
+      "source": "art/source/ui/reference-v2/chrome-atlas.png",
+      "role": "ui-element",
+      "width": 221,
+      "height": 245,
+      "pngColorType": 6,
+      "sha256": "fa3e3abef0e445ad534528528d26ea9e110b01a0fa22faadb570748afecf8f7c",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        983,
+        963,
+        1204,
+        1208
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/paper.png",
+      "source": "art/source/ui/reference-v2/paper-master.png",
+      "role": "ui-element",
+      "width": 1024,
+      "height": 1463,
+      "pngColorType": 6,
+      "sha256": "98021a517951885de85845135e9f8771f858780408ca52031ea3d295855c92b1",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        14,
+        15,
+        1038,
+        1478
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/header.png",
+      "source": "art/source/ui/reference-v2/header-master.png",
+      "role": "ui-element",
+      "width": 2032,
+      "height": 395,
+      "pngColorType": 6,
+      "sha256": "d3d591f8a77e4c001f11950d1a55e5a3d0dc6969c049e010d71921eea568ab46",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        0,
+        157,
+        2032,
+        552
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/icon-skills.png",
+      "source": "art/source/ui/reference-v2/nav-master.png",
+      "role": "ui-element",
+      "width": 526,
+      "height": 486,
+      "pngColorType": 6,
+      "sha256": "6e08227dd59c482303de06736a3567b0dd2eabaca432956168a01bdd64072c97",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        90,
+        95,
+        616,
+        581
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/icon-map.png",
+      "source": "art/source/ui/reference-v2/nav-master.png",
+      "role": "ui-element",
+      "width": 462,
+      "height": 487,
+      "pngColorType": 6,
+      "sha256": "a354924a0059445a0cf5bb2f02de228a5654538257dfd4589798d8d1eafc37e7",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        714,
+        93,
+        1176,
+        580
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/icon-market.png",
+      "source": "art/source/ui/reference-v2/nav-master.png",
+      "role": "ui-element",
+      "width": 524,
+      "height": 511,
+      "pngColorType": 6,
+      "sha256": "c68c421f622b2c744d273ffe717a4b3ff8b6712641e6ce183fafaeca19bc30c6",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        73,
+        679,
+        597,
+        1190
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/icon-inventory.png",
+      "source": "art/source/ui/reference-v2/nav-master.png",
+      "role": "ui-element",
+      "width": 515,
+      "height": 450,
+      "pngColorType": 6,
+      "sha256": "c249bc42f1512923ddbf81c598a641666bb0c3f942ebab2c4b7cdc2dc39c0c67",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        696,
+        712,
+        1211,
+        1162
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/health-frame.png",
+      "source": "art/source/ui/reference-v2/combat-master.png",
+      "role": "ui-element",
+      "width": 615,
+      "height": 95,
+      "pngColorType": 6,
+      "sha256": "3a2c7b502b30f751e668af0bb13d81da662257a3ddd0201eaf0dbd62f899b1cf",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        25,
+        258,
+        640,
+        353
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/burst.png",
+      "source": "art/source/ui/reference-v2/combat-master.png",
+      "role": "ui-element",
+      "width": 310,
+      "height": 296,
+      "pngColorType": 6,
+      "sha256": "ce4ad19629a385da2a0f98cea371b50ce27a8852464410076720fa17aaec7043",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        680,
+        140,
+        990,
+        436
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/quest-frame.png",
+      "source": "art/source/ui/reference-v2/combat-master.png",
+      "role": "ui-element",
+      "width": 588,
+      "height": 210,
+      "pngColorType": 6,
+      "sha256": "2e9831c0aa78598280c276405391d2be434784a23880bb3af1b3e2ca059d8aff",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        22,
+        710,
+        610,
+        920
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/boss-frame.png",
+      "source": "art/source/ui/reference-v2/combat-master.png",
+      "role": "ui-element",
+      "width": 360,
+      "height": 386,
+      "pngColorType": 6,
+      "sha256": "263668ac5e80f240cd3a25888cc57c0dcdb75d9eb255fd38ba6f936a0d7d34a5",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        645,
+        590,
+        1005,
+        976
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/notification.png",
+      "source": "art/source/ui/reference-v2/combat-master.png",
+      "role": "ui-element",
+      "width": 145,
+      "height": 155,
+      "pngColorType": 6,
+      "sha256": "04c4f1363bb37449994ffa64f388e48a11d6c57804c930d243915983ffbdf8d8",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        215,
+        1185,
+        360,
+        1340
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/retreat.png",
+      "source": "art/source/ui/reference-v2/combat-master.png",
+      "role": "ui-element",
+      "width": 317,
+      "height": 305,
+      "pngColorType": 6,
+      "sha256": "98ad028e7846b78e0a1d6a9c3c30ebf1969b664dd528f261f798394552451af5",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        640,
+        1110,
+        957,
+        1415
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/blueprint-blank.png",
+      "source": "art/source/ui/reference-v2/blueprint-master.png",
+      "role": "ui-element",
+      "width": 1292,
+      "height": 1218,
+      "pngColorType": 6,
+      "sha256": "13e6a87acc597ee2f986700d50ccfddd7359f6cc0040b03a2281c897abe0c99b",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        0,
+        0,
+        1292,
+        1218
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/result-defeat.png",
+      "source": "art/source/ui/reference-v2/result-defeat-master.png",
+      "role": "ui-element",
+      "width": 1407,
+      "height": 964,
+      "pngColorType": 6,
+      "sha256": "c46c426c5782793acdbb2b300098ec4a529281c550d420a74ef71e142dd8bc3a",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        0,
+        91,
+        1407,
+        1055
+      ]
+    },
+    {
+      "path": "public/assets/ui/reference-v2/result-victory.png",
+      "source": "art/source/ui/reference-v2/result-victory-master.png",
+      "role": "ui-element",
+      "width": 1417,
+      "height": 1107,
+      "pngColorType": 6,
+      "sha256": "8fff1db58be9e5d49d402c7b35c8107fd8509df42c803e552d57d10d52037dd8",
+      "animation": "static",
+      "provenance": "docs/assets/2026-10-01-ui-elements-v2.md",
+      "crop": [
+        1,
+        2,
+        1418,
+        1109
+      ]
     }
   ],
   "supplementalVideos": [

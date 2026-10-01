@@ -12,3 +12,6 @@
 6. [同类游戏与借鉴建议](research/similar-games-2026-09-30.md)：七款参考游戏、来源、M1 可吸收的变化与广告补给设计。
 
 当前已经实现小品级演示，验证记录见 docs/validation；长期节奏与真实手机表现仍待玩家验收。
+
+- [UI元素复刻v2：来源、提示词、裁切、接入与边界](assets/2026-10-01-ui-elements-v2.md)
+- [UI元素v2浏览器及规则验证](validation/ui-elements-2026-10-01/)

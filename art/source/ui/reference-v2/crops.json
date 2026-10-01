@@ -1,0 +1,467 @@
+[
+  {
+    "name": "nav-idle",
+    "path": "public/assets/ui/reference-v2/nav-idle.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      101,
+      62,
+      235,
+      297
+    ],
+    "size": [
+      134,
+      235
+    ]
+  },
+  {
+    "name": "nav-selected",
+    "path": "public/assets/ui/reference-v2/nav-selected.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      400,
+      59,
+      540,
+      297
+    ],
+    "size": [
+      140,
+      238
+    ]
+  },
+  {
+    "name": "button-gold",
+    "path": "public/assets/ui/reference-v2/button-gold.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      641,
+      136,
+      924,
+      235
+    ],
+    "size": [
+      283,
+      99
+    ]
+  },
+  {
+    "name": "button-disabled",
+    "path": "public/assets/ui/reference-v2/button-disabled.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      954,
+      136,
+      1235,
+      236
+    ],
+    "size": [
+      281,
+      100
+    ]
+  },
+  {
+    "name": "list-idle",
+    "path": "public/assets/ui/reference-v2/list-idle.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      15,
+      400,
+      304,
+      509
+    ],
+    "size": [
+      289,
+      109
+    ]
+  },
+  {
+    "name": "list-selected",
+    "path": "public/assets/ui/reference-v2/list-selected.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      324,
+      399,
+      619,
+      509
+    ],
+    "size": [
+      295,
+      110
+    ]
+  },
+  {
+    "name": "title-paper",
+    "path": "public/assets/ui/reference-v2/title-paper.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      639,
+      417,
+      925,
+      505
+    ],
+    "size": [
+      286,
+      88
+    ]
+  },
+  {
+    "name": "title-metal",
+    "path": "public/assets/ui/reference-v2/title-metal.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      948,
+      426,
+      1239,
+      501
+    ],
+    "size": [
+      291,
+      75
+    ]
+  },
+  {
+    "name": "paper-small",
+    "path": "public/assets/ui/reference-v2/paper-small.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      37,
+      594,
+      289,
+      940
+    ],
+    "size": [
+      252,
+      346
+    ]
+  },
+  {
+    "name": "blueprint-pistol",
+    "path": "public/assets/ui/reference-v2/blueprint-pistol.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      322,
+      631,
+      621,
+      913
+    ],
+    "size": [
+      299,
+      282
+    ]
+  },
+  {
+    "name": "stats-paper",
+    "path": "public/assets/ui/reference-v2/stats-paper.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      632,
+      668,
+      939,
+      882
+    ],
+    "size": [
+      307,
+      214
+    ]
+  },
+  {
+    "name": "market-card",
+    "path": "public/assets/ui/reference-v2/market-card.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      978,
+      610,
+      1216,
+      922
+    ],
+    "size": [
+      238,
+      312
+    ]
+  },
+  {
+    "name": "resource-frame",
+    "path": "public/assets/ui/reference-v2/resource-frame.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      30,
+      1050,
+      301,
+      1144
+    ],
+    "size": [
+      271,
+      94
+    ]
+  },
+  {
+    "name": "power-frame",
+    "path": "public/assets/ui/reference-v2/power-frame.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      329,
+      1057,
+      617,
+      1137
+    ],
+    "size": [
+      288,
+      80
+    ]
+  },
+  {
+    "name": "coin",
+    "path": "public/assets/ui/reference-v2/coin.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      702,
+      1015,
+      865,
+      1171
+    ],
+    "size": [
+      163,
+      156
+    ]
+  },
+  {
+    "name": "portrait",
+    "path": "public/assets/ui/reference-v2/portrait.png",
+    "source": "art/source/ui/reference-v2/chrome-atlas.png",
+    "crop": [
+      983,
+      963,
+      1204,
+      1208
+    ],
+    "size": [
+      221,
+      245
+    ]
+  },
+  {
+    "name": "paper",
+    "path": "public/assets/ui/reference-v2/paper.png",
+    "source": "art/source/ui/reference-v2/paper-master.png",
+    "crop": [
+      14,
+      15,
+      1038,
+      1478
+    ],
+    "size": [
+      1024,
+      1463
+    ]
+  },
+  {
+    "name": "header",
+    "path": "public/assets/ui/reference-v2/header.png",
+    "source": "art/source/ui/reference-v2/header-master.png",
+    "crop": [
+      0,
+      157,
+      2032,
+      552
+    ],
+    "size": [
+      2032,
+      395
+    ]
+  },
+  {
+    "name": "icon-skills",
+    "path": "public/assets/ui/reference-v2/icon-skills.png",
+    "source": "art/source/ui/reference-v2/nav-master.png",
+    "crop": [
+      90,
+      95,
+      616,
+      581
+    ],
+    "size": [
+      526,
+      486
+    ]
+  },
+  {
+    "name": "icon-map",
+    "path": "public/assets/ui/reference-v2/icon-map.png",
+    "source": "art/source/ui/reference-v2/nav-master.png",
+    "crop": [
+      714,
+      93,
+      1176,
+      580
+    ],
+    "size": [
+      462,
+      487
+    ]
+  },
+  {
+    "name": "icon-market",
+    "path": "public/assets/ui/reference-v2/icon-market.png",
+    "source": "art/source/ui/reference-v2/nav-master.png",
+    "crop": [
+      73,
+      679,
+      597,
+      1190
+    ],
+    "size": [
+      524,
+      511
+    ]
+  },
+  {
+    "name": "icon-inventory",
+    "path": "public/assets/ui/reference-v2/icon-inventory.png",
+    "source": "art/source/ui/reference-v2/nav-master.png",
+    "crop": [
+      696,
+      712,
+      1211,
+      1162
+    ],
+    "size": [
+      515,
+      450
+    ]
+  },
+  {
+    "name": "health-frame",
+    "path": "public/assets/ui/reference-v2/health-frame.png",
+    "source": "art/source/ui/reference-v2/combat-master.png",
+    "crop": [
+      25,
+      258,
+      640,
+      353
+    ],
+    "size": [
+      615,
+      95
+    ]
+  },
+  {
+    "name": "burst",
+    "path": "public/assets/ui/reference-v2/burst.png",
+    "source": "art/source/ui/reference-v2/combat-master.png",
+    "crop": [
+      680,
+      140,
+      990,
+      436
+    ],
+    "size": [
+      310,
+      296
+    ]
+  },
+  {
+    "name": "quest-frame",
+    "path": "public/assets/ui/reference-v2/quest-frame.png",
+    "source": "art/source/ui/reference-v2/combat-master.png",
+    "crop": [
+      22,
+      710,
+      610,
+      920
+    ],
+    "size": [
+      588,
+      210
+    ]
+  },
+  {
+    "name": "boss-frame",
+    "path": "public/assets/ui/reference-v2/boss-frame.png",
+    "source": "art/source/ui/reference-v2/combat-master.png",
+    "crop": [
+      645,
+      590,
+      1005,
+      976
+    ],
+    "size": [
+      360,
+      386
+    ]
+  },
+  {
+    "name": "notification",
+    "path": "public/assets/ui/reference-v2/notification.png",
+    "source": "art/source/ui/reference-v2/combat-master.png",
+    "crop": [
+      215,
+      1185,
+      360,
+      1340
+    ],
+    "size": [
+      145,
+      155
+    ]
+  },
+  {
+    "name": "retreat",
+    "path": "public/assets/ui/reference-v2/retreat.png",
+    "source": "art/source/ui/reference-v2/combat-master.png",
+    "crop": [
+      640,
+      1110,
+      957,
+      1415
+    ],
+    "size": [
+      317,
+      305
+    ]
+  },
+  {
+    "name": "blueprint-blank",
+    "path": "public/assets/ui/reference-v2/blueprint-blank.png",
+    "source": "art/source/ui/reference-v2/blueprint-master.png",
+    "crop": [
+      0,
+      0,
+      1292,
+      1218
+    ],
+    "size": [
+      1292,
+      1218
+    ]
+  },
+  {
+    "name": "result-defeat",
+    "path": "public/assets/ui/reference-v2/result-defeat.png",
+    "source": "art/source/ui/reference-v2/result-defeat-master.png",
+    "crop": [
+      0,
+      91,
+      1407,
+      1055
+    ],
+    "size": [
+      1407,
+      964
+    ]
+  },
+  {
+    "name": "result-victory",
+    "path": "public/assets/ui/reference-v2/result-victory.png",
+    "source": "art/source/ui/reference-v2/result-victory-master.png",
+    "crop": [
+      1,
+      2,
+      1418,
+      1109
+    ],
+    "size": [
+      1417,
+      1107
+    ]
+  }
+]

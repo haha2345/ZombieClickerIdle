@@ -14,6 +14,7 @@ export class BattleScene extends Phaser.Scene {
   private ring!:Phaser.GameObjects.Graphics
   private threat!:Phaser.GameObjects.Graphics
   private hpText!:Phaser.GameObjects.Text
+  private speciesText!:Phaser.GameObjects.Text
   private warning!:Phaser.GameObjects.Text
   private hitFlashUntil=0
   private lastShot=0
@@ -21,18 +22,19 @@ export class BattleScene extends Phaser.Scene {
   private lastShake=0
   private fireKey?:Phaser.Input.Keyboard.Key
   constructor(session:GameSession){super('battle');this.session=session}
-  preload(){const base=import.meta.env.BASE_URL;for(const [key,path] of [['corridor','scenes/corridor-clean.png'],['rooftop','scenes/boss-rooftop-clean.png'],['greenhouse','scenes/boss-greenhouse-clean.png'],['hero','characters/hero-still.png'],['zombie','enemies/office-zombie.png'],['tyrant','enemies/cone-tyrant.png'],['plant','enemies/mutant-plant.png']])this.load.image(key!,base+'assets/'+path);for(const clip of MOTION)this.load.spritesheet(clip.key,base+'assets/motion/'+clip.file,{frameWidth:clip.width,frameHeight:clip.height})}
+  preload(){const base=import.meta.env.BASE_URL;for(const [key,path] of [['corridor','scenes/corridor-clean.png'],['rooftop','scenes/boss-rooftop-clean.png'],['greenhouse','scenes/boss-greenhouse-clean.png'],['hero','characters/hero-still.png'],['zombie','enemies/office-zombie.png'],['tyrant','enemies/cone-tyrant.png'],['plant','enemies/mutant-plant.png'],['health-frame','ui/reference-v2/health-frame.png']])this.load.image(key!,base+'assets/'+path);for(const clip of MOTION)this.load.spritesheet(clip.key,base+'assets/motion/'+clip.file,{frameWidth:clip.width,frameHeight:clip.height})}
   create(){
-    this.background=this.add.image(240,400,'corridor').setDisplaySize(480,800)
+    this.background=this.add.image(240,426,'corridor').setDisplaySize(480,852)
     for(const clip of MOTION)this.anims.create({key:clip.key,frames:this.anims.generateFrameNumbers(clip.key,{start:0,end:clip.frames-1}),frameRate:clip.fps,repeat:clip.repeat})
-    this.hero=this.add.sprite(106,810,'hero-shoot',0).setOrigin(.5,1).setDisplaySize(310,480).setDepth(3)
+    this.hero=this.add.sprite(106,862,'hero-shoot',0).setOrigin(.5,1).setDisplaySize(310,480).setDepth(3)
     this.hero.on('animationcomplete',()=>this.hero.setFrame(0))
     this.enemy=this.add.sprite(302,510,'zombie-walk',0).setOrigin(.5,1).setDisplaySize(163,272)
     this.enemyBlend=this.add.sprite(302,510,'zombie-walk',0).setOrigin(.5,1).setVisible(false)
     this.threat=this.add.graphics().setDepth(4)
-    this.add.rectangle(240,127,260,29,0x071116,.75).setDepth(5)
+    this.add.image(240,200,'health-frame').setDisplaySize(218,28).setDepth(5)
     this.ring=this.add.graphics().setDepth(6)
-    this.hpText=this.add.text(240,117,'',{fontFamily:'sans-serif',fontSize:'15px',color:'#dce8d8'}).setOrigin(.5).setDepth(7)
+    this.speciesText=this.add.text(240,176,'',{fontFamily:'sans-serif',fontSize:'12px',fontStyle:'bold',color:'#ffffff',stroke:'#111820',strokeThickness:3}).setOrigin(.5).setDepth(7)
+    this.hpText=this.add.text(240,200,'',{fontFamily:'sans-serif',fontSize:'11px',color:'#dce8d8'}).setOrigin(.5).setDepth(7)
     this.warning=this.add.text(240,196,'',{fontFamily:'sans-serif',fontSize:'20px',fontStyle:'bold',color:'#ffe0a1',stroke:'#251514',strokeThickness:5,align:'center'}).setOrigin(.5).setDepth(8)
     this.input.on('pointerdown',()=>this.session.shoot())
     this.fireKey=this.input.keyboard?.addKey('SPACE')
@@ -65,14 +67,15 @@ export class BattleScene extends Phaser.Scene {
     const recoil=Math.max(0,(this.recoilUntil-this.time.now)/110)
     this.enemy.x+=recoil*4;this.enemyBlend.x=this.enemy.x
     this.threat.clear()
-    if(boss){this.threat.lineStyle(2,0xdb554b,.55).lineBetween(190,640,465,640);this.threat.fillStyle(0xbd251a,Math.max(0,(approach-.5)*.3)).fillRect(0,0,480,800)}
+    if(boss){this.threat.lineStyle(2,0xdb554b,.55).lineBetween(190,640,465,640);this.threat.fillStyle(0xbd251a,Math.max(0,(approach-.5)*.3)).fillRect(0,0,480,852)}
     this.warning.setText(boss?s.bossIntro>0?'警报 · 首领来袭\n准备射击':s.hp/s.maxHp<.35?'狂暴推进':approach>.75?'它快冲到面前了！':'':'')
     this.warning.setFontSize(s.bossIntro>0?'22px':'16px')
     if(boss&&approach>.75&&s.clockMs-this.lastShake>1200&&!matchMedia('(prefers-reduced-motion: reduce)').matches){this.lastShake=s.clockMs;this.cameras.main.shake(140,.004)}
     if(s.mode!==this.lastMode){this.lastMode=s.mode;if(boss)this.cameras.main.flash(120,115,26,15)}
+    this.speciesText.setText(boss?'首领 · E级威胁':'丧尸 · F级威胁')
     const layers=boss?3:1,remainingLayers=Math.ceil(s.hp/s.maxHp*layers),barFraction=s.hp<=0?0:s.hp/s.maxHp*layers-(remainingLayers-1)
     this.hpText.setText((boss?cfg.district.boss:({walker:'白领感染者',armored:'护甲感染者',runner:'疾行感染者',swarm:'群体感染者'})[s.enemyKind])+'  '+Math.ceil(barFraction*100)+'%'+(boss?'  ×'+Math.max(0,remainingLayers-1):''))
-    this.ring.clear().fillStyle(0x172227,.9).fillRoundedRect(110,134,260,9,2).fillStyle(boss&&remainingLayers>1?0xefcc59:0xd95061).fillRoundedRect(110,134,Math.max(1,260*barFraction),9,2)
+    this.ring.clear().fillStyle(boss&&remainingLayers>1?0xefcc59:0xd95061).fillRect(147,195,Math.max(1,186*barFraction),10)
     if(s.shotSerial<this.lastShot){this.lastShot=0;this.hero.stop().setFrame(0)}
     if(s.shotSerial>0&&s.shotSerial!==this.lastShot){
       this.lastShot=s.shotSerial

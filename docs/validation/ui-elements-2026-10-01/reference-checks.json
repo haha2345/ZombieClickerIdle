@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "ordinary hit loses health, shows impact, and does not kill immediately",
+    "dense video playback changes at least 20 frames and blends the loop seam",
+    "boss preview, timed approach, menu pause, loss sheet and resource-preserving return",
+    "imagegen assets load; four primary tabs and reference aspect ratio at 480, 390 and 320px widths",
+    "warehouse category/rarity filters and manual learning; five-card market pagination and second-page purchase preserve real session rules",
+    "full-screen victory shows real rewards, freezes combat until continue, blocks hidden shots and resumes without duplicate rewards"
+  ],
+  "errors": [],
+  "distinctEnemyFrames": 26
+}

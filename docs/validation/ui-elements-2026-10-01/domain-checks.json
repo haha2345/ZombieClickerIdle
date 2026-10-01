@@ -1,0 +1,22 @@
+{
+  "passed": 17,
+  "tests": [
+    "fresh-save manual kill gives one reward, no repeat on dead enemy",
+    "manual cooldown and 20-kill bounty plus 9-kill fragment drop",
+    "weapon purchase gated by first-clear and equip gated by proficiency",
+    "boss prerequisite, timeout and retreat preserve resources",
+    "boss first-clear only once; advance route unlocks auto at stage 3",
+    "enemy counter: shotgun swarm advantage, rifle armor penetration",
+    "pets only carried effect, handbooks consume sets, research costs scale",
+    "market repeated purchase blocked; refresh only restores material stock",
+    "offline unlock, cap, no overwrite, base claim and additional reward once",
+    "cancelled ads no reward, receipts deduplicate, cooldown and daily quota",
+    "global daily cap and auto-trial expire; permanent auto does not require ad",
+    "achievements once, burst 8s and 45s cooldown, boss health monotonic",
+    "five kills grant manual boss eligibility; intro blocks shots; no automatic retry",
+    "locked systems cannot be bypassed; reward and unlock transactions exactly once",
+    "enrage accelerates arrival; burst knocks boss back and handbook sets scale",
+    "reference pace: many hits per ordinary enemy; unprepared boss fails and preparation can win",
+    "pre-boss growth is reachable: market and enhancement before first clear"
+  ]
+}
